@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-197-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-199-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,8 +49,8 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (26)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (15)
 - [Legal and Court Data](#legal-and-court-data) (4)
-- [Security and Identity](#security-and-identity) (10)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (27)
+- [Security and Identity](#security-and-identity) (11)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (28)
 - [Utilities and Examples](#utilities-and-examples) (12)
 
 <a id="official-and-reference"></a>
@@ -435,6 +435,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `endpoint` `security` `soc`
 - **[Darkmoon MCP Server](https://github.com/ASCIT31/darkmoon-mcp-server)** `Official` `TypeScript` — Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio.  
   `pentest` `vulnerabilities` `security` `stdio`
+- **[FractalAI Agent Passport](https://www.npmjs.com/package/@fractalai/agent-passport-mcp)** `Official` `TypeScript` — Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts.  
+  `post-quantum` `ml-dsa` `x402` `identity` `receipts`
 - **[Lodestar Stamp](https://lodestarstamp.com)** `TypeScript` — Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.  
   `trust` `receipts` `agents` `security`
 - **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
@@ -508,8 +510,6 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `invoice` `billing` `pdf`
 - **[Zovo Invoice MCP](https://github.com/theluckystrike/mcp-servers/tree/main/servers/invoice)** `TypeScript` — Local PDF invoicing with sequential numbering, VAT per rate, and client management; also sold as a hosted streamable endpoint.  
   `invoice` `pdf` `billing` `bookkeeping` `finance`
-- **[HostDeFi](https://github.com/verixiaapps/nexus-dex)** `TypeScript` — Hosted multi-chain token risk scanner and x402 agent API: free safety grades for Solana and EVM tokens, markets explorer, and per-call paid JSON-RPC on 82 chains via https://hostdefi.com/api/v1/mcp.  
-  `crypto` `defi` `x402` `token-risk` `remote`
 
 <a id="utilities-and-examples"></a>
 

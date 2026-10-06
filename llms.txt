@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 197 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 199 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The interactive map, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -198,6 +198,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server): Manage Auth0 tenants, applications, and user identity settings. (TypeScript, official)
 - [CrowdStrike MCP Server](https://github.com/CrowdStrike/falcon-mcp): Query CrowdStrike Falcon detections and endpoint security data. (Python, official)
 - [Darkmoon MCP Server](https://github.com/ASCIT31/darkmoon-mcp-server): Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio. (TypeScript, official)
+- [FractalAI Agent Passport](https://www.npmjs.com/package/@fractalai/agent-passport-mcp): Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts. (TypeScript, official)
 - [Lodestar Stamp](https://lodestarstamp.com): Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking. (TypeScript)
 - [Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server): Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server. (TypeScript, official)
 - [Snyk MCP Server](https://github.com/snyk/studio-mcp): Scan dependencies and code for vulnerabilities with Snyk. (TypeScript, official)

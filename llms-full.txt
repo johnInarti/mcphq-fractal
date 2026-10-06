@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 197 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
+> Full Markdown catalog of 199 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://landscape.mcphq.org/llms.txt. The same records are published as JSON at https://landscape.mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1766,6 +1766,17 @@ Start autonomous AI pentest runs, poll status, list campaigns and read findings 
 - Provider: Darkmoon (ASC-IT)
 - Official: yes
 - Tags: pentest, vulnerabilities, security, stdio
+- Category: Security and Identity
+
+### FractalAI Agent Passport
+
+Verifies ML-DSA-65 (FIPS 204) signed agent receipts offline and exposes pay-per-call x402 tools (USDC on Base) that return post-quantum signed receipts.
+
+- URL: https://www.npmjs.com/package/@fractalai/agent-passport-mcp
+- Language: TypeScript
+- Provider: FractalAI
+- Official: yes
+- Tags: post-quantum, ml-dsa, x402, identity, receipts
 - Category: Security and Identity
 
 ### Lodestar Stamp
